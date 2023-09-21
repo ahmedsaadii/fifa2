@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@800&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #191919; 
+    
+      height: 1000px; 
+      
+       
+}
+
+#container{
+    width: 95%;
+
+}
+.firstdiv{
+   display: grid;
+   place-items: center;
+   
+}
+
+.firstdiv ul li{
+    display: inline;
+    list-style: none;   
+}
+.firstdiv a {
+
+    color: white;
+    text-decoration: none;
+    margin: 0 100px; 
+    color: #FFF;
+    font-family: Space Mono;
+    color: #FFF;
+    font-size: 16.806px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 110%; 
+    letter-spacing: 0.756px;
+}  
+.divtwo h1{
+    
+
+        color: rgb(25, 23, 23);
+        font-family: 'Genos', sans-serif;
+        font-size: 191.147px ;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 97%; /* 114.968px */
+        letter-spacing: 5.947px;
+        text-transform: uppercase;
+        text-shadow: 0 0 1px #ffffff, 0 0 5px #ffffff;
+        margin-top: 10%;
+        margin-left: 7%;
+}
+.divtwo :nth-child(2) {
+    color: #FFF;
+    transform: translate(0, -150px);
+
+}
+.divtwo :last-child{
+    transform: translate(6.5rem, -20rem);
+    width: 89.632px;
+    height: 6.402px
+}
+.divtwo :nth-child(1){
+    transform: translate(0, 90px);
+}
+.football{
+    transform: translate(80%, -130%);
+}
+.divthree{
+    transform: translate(90rem,-70rem);
+}
+.divthree :first-child{
+    transform: translate(-50px, 50px);
+
+}
+    
+.divthree p{
+    font-family: sans-serif; 
+    color: #FFF;
+    font-family:Space Mono ;
+    font-size: 25.807px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    letter-spacing: 0.936px;
+
+}
+.divthree p:nth-child(1n+3){
+    color: rgba(255, 255, 255, 0.20);
+}
+.divfour{
+    transform: translate(4rem, -60rem);
+    
+}
+.divfour h2{
+    color: rgb(26, 20, 20);
+    font-family: 'Genos' sans-serif;
+    font-size: 67.633px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    letter-spacing: 3.043px;
+    text-shadow: 0 0 1px #ffffff, 0 0 0px #ffffff;
+    transform: translate(5rem, -15rem);
+}
+.divfour p{
+    color: #FFF;
+font-family: Space Mono;
+font-size: 11.958px;
+font-style: normal;
+font-weight: 400;
+line-height: 110%;
+letter-spacing: 0.538px;
+transform: translate(4rem, -18rem);
+position: relative;
+
+}
+.trouble{
+position: absolute;
+    transform: translate(15rem, -82rem);
+    z-index: -1;
+}
+
+.divfiv{
+   transform: translate(70rem, -90.5rem);
+}
+.divfiv a{
+ position: relative;
+ bottom: 25px;
+ right: 180px;
+ font-size: 25px;
+ color: #100101;
+ font-weight: bold;
+ text-decoration: none;
+}
+.divfiv p{
+    width: 276.897px;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Space Mono;
+    font-size: 18.406px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    letter-spacing: 0.828px;
+    transform: translate(-3px, -25px);
+}
+
+.divsix div{
+    width: 214px;
+    height: 36px;
+    transform: rotate(-2.021deg);
+    
+    
+}
+.divsix{
+    width: 120%;
+    height: 64.841px;
+   transform: rotate(-2.021deg);
+   flex-shrink: 0;
+   background-color: #B6FF1C;
+}
+.divsix img{
+    display: inline-block;
+    padding: 0 20px;
+}
+.divseven{
+    width: 120%;
+    height: 64.841px;
+    transform: rotate(5.966deg);
+   flex-shrink: 0;
+   background-color: #FFFFFF;
+
+}
+.divseven img{
+    display: inline-block;
+    padding: 0 20px;
+}
+.lastdiv{
+    position: relative;
+    bottom: 1300px;
+    width: 180%;
+}
